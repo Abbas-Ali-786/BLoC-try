@@ -2,6 +2,7 @@ import 'package:equatable/equatable.dart';
 
 abstract class CounterEvent extends Equatable{
 
+
   const CounterEvent();
 
   @override
@@ -11,6 +12,7 @@ abstract class CounterEvent extends Equatable{
 class IncrementEvent extends CounterEvent{
 
 }
+
 
 class DecrementEvent extends CounterEvent{
 
